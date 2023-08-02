@@ -1,0 +1,27 @@
+#Comments are welcome anywhere
+#Human vertical = I
+#Computer vertical = |
+#Human horizontal = - 
+#Computer horizontal = =
+#Human box ownership = H
+#Computer box ownership = C
+#
++ + + + + +#The first row determines width
+           
++ + + + + +
+      I    
++ + + + + +
+      |    
++-+ + + +=+
+           
++ + + + + +
+           
++ + + + + +
+Anything illegal in column one determines height.
+=Analysis Random Yes
+=Analysis Obvious Capture Yes
+=Analysis Give Nothing Yes
+=Analysis Give Little Yes
+=Analysis Grab Anything Yes
+=Analysis SimpleWin Yes
+=Analysis Verify Nimstring Value 0

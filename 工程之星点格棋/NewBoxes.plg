@@ -1,0 +1,105 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: NewBoxes - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/NewBoxes.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\NewBoxes.rc"" 
+Creating temporary file "C:\Users\msp\AppData\Local\Temp\RSPB5EA.tmp" with contents
+[
+/nologo /MD /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FAcs /Fa"Release/" /Fp"Release/NewBoxes.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\DotBoxLib\Canon.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\CCD.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\DotBoxLib\Combinations.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\ComputerMove.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\DeduceMove.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\DotBoxLib\Divide.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\DotBoxLib\DotsAndBoxes.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\EnterPosition.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\Flow.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\DotBoxLib\Hash.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\DotBoxLib\IO.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\MainFrm.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\MoveHistory.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\NewBoxes.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\NewBoxesDoc.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\NewBoxesView.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\NewDialog.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\NimSimplify.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\DotBoxLib\Nimstring.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\Openings.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\OpeningTables.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\OptionsDialog.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\PlayGame.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\Process.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\DotBoxLib\Simplify.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\StatisticsDialog.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\DotBoxLib\Strings.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\DotBoxLib\SWEvaluate.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\Tables.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\TestCreation.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\DotBoxLib\Translate.cpp"
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\DotBoxLib\Utility.cpp"
+]
+Creating command line "cl.exe @C:\Users\msp\AppData\Local\Temp\RSPB5EA.tmp" 
+Creating temporary file "C:\Users\msp\AppData\Local\Temp\RSPB5FB.tmp" with contents
+[
+/nologo /MD /W4 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /FAcs /Fa"Release/" /Fp"Release/NewBoxes.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\msp\Desktop\调试成功\工程之星点格棋\工程之星点格棋\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\msp\AppData\Local\Temp\RSPB5FB.tmp" 
+Creating temporary file "C:\Users\msp\AppData\Local\Temp\RSPB5FC.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/NewBoxes.pdb" /map:"Release/NewBoxes.map" /machine:I386 /out:"Release/NewBoxes.exe" 
+".\Release\Canon.obj"
+".\Release\CCD.obj"
+".\Release\Combinations.obj"
+".\Release\ComputerMove.obj"
+".\Release\DeduceMove.obj"
+".\Release\Divide.obj"
+".\Release\DotsAndBoxes.obj"
+".\Release\EnterPosition.obj"
+".\Release\Flow.obj"
+".\Release\Hash.obj"
+".\Release\IO.obj"
+".\Release\MainFrm.obj"
+".\Release\MoveHistory.obj"
+".\Release\NewBoxes.obj"
+".\Release\NewBoxesDoc.obj"
+".\Release\NewBoxesView.obj"
+".\Release\NewDialog.obj"
+".\Release\NimSimplify.obj"
+".\Release\Nimstring.obj"
+".\Release\Openings.obj"
+".\Release\OpeningTables.obj"
+".\Release\OptionsDialog.obj"
+".\Release\PlayGame.obj"
+".\Release\Process.obj"
+".\Release\Simplify.obj"
+".\Release\StatisticsDialog.obj"
+".\Release\StdAfx.obj"
+".\Release\Strings.obj"
+".\Release\SWEvaluate.obj"
+".\Release\Tables.obj"
+".\Release\TestCreation.obj"
+".\Release\Translate.obj"
+".\Release\Utility.obj"
+".\Release\NewBoxes.res"
+]
+Creating command line "link.exe @C:\Users\msp\AppData\Local\Temp\RSPB5FC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+
+
+C:\Users\msp\Desktop\????\???????\???????\NewBoxes.rc (500): error RC2135 : file not found: 1252
+Error executing rc.exe.
+
+
+
+<h3>Results</h3>
+NewBoxes.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

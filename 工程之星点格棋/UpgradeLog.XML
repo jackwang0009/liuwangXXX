@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NewBoxes">
+</Property><Property Name="Solution File" Value="C:\Users\xiaoguo\Desktop\新建文件夹 (3) - 副本\NewBoxes20101217\NewBoxes\NewBoxes.sln">
+</Property><Property Name="User Options File" Value="C:\Users\xiaoguo\Desktop\新建文件夹 (3) - 副本\NewBoxes20101217\NewBoxes\NewBoxes.suo">
+</Property><Property Name="Date" Value="2012年8月19日">
+</Property><Property Name="Time" Value="1:14">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="NewBoxes.sln" Description="File successfully backed up as C:\Users\xiaoguo\Desktop\新建文件夹 (3) - 副本\NewBoxes20101217\NewBoxes\NewBoxes.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="NewBoxes.suo" Description="File successfully backed up as C:\Users\xiaoguo\Desktop\新建文件夹 (3) - 副本\NewBoxes20101217\NewBoxes\NewBoxes.suo.old">
+</Event><Event ErrorLevel="0" Project="NewBoxes" Source="NewBoxes.vcproj" Description="Converting project file 'C:\Users\xiaoguo\Desktop\新建文件夹 (3) - 副本\NewBoxes20101217\NewBoxes\NewBoxes.vcproj'.">
+</Event><Event ErrorLevel="1" Project="NewBoxes" Source="NewBoxes.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="NewBoxes" Source="NewBoxes.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\xiaoguo\Desktop\新建文件夹 (3) - 副本\NewBoxes20101217\NewBoxes\.\Debug\NewBoxes.exe') does not match the Linker's OutputFile property value '.\Debug/NewBoxes.exe' ('C:\Users\xiaoguo\Desktop\新建文件夹 (3) - 副本\NewBoxes20101217\NewBoxes\Debug/NewBoxes.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="NewBoxes" Source="NewBoxes.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\xiaoguo\Desktop\新建文件夹 (3) - 副本\NewBoxes20101217\NewBoxes\.\Release\NewBoxes.exe') does not match the Linker's OutputFile property value '.\Release/NewBoxes.exe' ('C:\Users\xiaoguo\Desktop\新建文件夹 (3) - 副本\NewBoxes20101217\NewBoxes\Release/NewBoxes.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="NewBoxes" Source="NewBoxes.vcproj" Description="Done converting to new project file 'C:\Users\xiaoguo\Desktop\新建文件夹 (3) - 副本\NewBoxes20101217\NewBoxes\NewBoxes.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="NewBoxes" Source="NewBoxes.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="NewBoxes.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="NewBoxes.sln" Description="Converted">
+</Event></UpgradeLog>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="NewBoxes">
+</Property><Property Name="解决方案文件" Value="C:\Users\msp\Desktop\工程之星点格棋\工程之星点格棋\NewBoxes.sln">
+</Property><Property Name="Date" Value="2013年7月28日">
+</Property><Property Name="Time" Value="23:54:49">
+</Property><Property Name="日志号" Value="7">
+</Property></Properties><Event ErrorLevel="0" Project="NewBoxes" Source="NewBoxes.vcproj" Description="Converting project file 'C:\Users\msp\Desktop\工程之星点格棋\工程之星点格棋\NewBoxes.vcproj'.">
+</Event><Event ErrorLevel="1" Project="NewBoxes" Source="NewBoxes.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="NewBoxes" Source="NewBoxes.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\msp\Desktop\工程之星点格棋\工程之星点格棋\.\Debug\NewBoxes.exe') does not match the Linker's OutputFile property value '.\Debug/NewBoxes.exe' ('C:\Users\msp\Desktop\工程之星点格棋\工程之星点格棋\Debug/NewBoxes.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="NewBoxes" Source="NewBoxes.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\msp\Desktop\工程之星点格棋\工程之星点格棋\.\Release\NewBoxes.exe') does not match the Linker's OutputFile property value '.\Release/NewBoxes.exe' ('C:\Users\msp\Desktop\工程之星点格棋\工程之星点格棋\Release/NewBoxes.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="NewBoxes" Source="NewBoxes.vcproj" Description="Done converting to new project file 'C:\Users\msp\Desktop\工程之星点格棋\工程之星点格棋\NewBoxes.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="NewBoxes" Source="NewBoxes.vcproj" Description="Converted">
+</Event></UpgradeLog>

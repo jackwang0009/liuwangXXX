@@ -1,0 +1,499 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\NewBoxes.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\NewBoxes.ico"
+IDR_NEWBOXTYPE          ICON                    "res\\NewBoxesDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  15, 15
+BEGIN
+    BUTTON      ID_APP_ABOUT
+    SEPARATOR
+    BUTTON      IDM_ComputerMove
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&操作"
+    BEGIN
+        MENUITEM "&电脑先手",                       IDM_ComputerMove
+        MENUITEM "&悔棋",                         IDM_UnDoTurn
+        MENUITEM "重走",                          IDM_ReDoTurn
+    END
+    POPUP "&关于"
+    BEGIN
+        MENUITEM "&哈尔滨工程大学2013",                   ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "C",            IDM_ComputerMove,       VIRTKEY, CONTROL, NOINVERT
+    "E",            IDM_EnterPosition,      VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Y",            IDM_ReDoTurn,           VIRTKEY, CONTROL, NOINVERT
+    "Z",            IDM_UnDoTurn,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 235, 71
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "工程之星2013"
+FONT 8, "哈工程计算机博弈组2013"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "工程之星2013",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "哈工程计算机博弈组2013",IDC_STATIC,40,25,119,35
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_NewDialog DIALOG  0, 0, 254, 108
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "设置"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "确认",IDOK,62,87,50,14
+    PUSHBUTTON      "取消",IDCANCEL,143,87,50,14
+    EDITTEXT        IDC_Width,21,26,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Height,69,26,40,14,ES_AUTOHSCROLL
+    LTEXT           "宽度",IDC_STATIC,21,15,39,8
+    LTEXT           "高度",IDC_STATIC,69,15,41,8
+    //EDITTEXT        IDC_RandomSeed,137,57,97,14,ES_AUTOHSCROLL
+    //LTEXT           "      ",IDC_RandomSeedTitle,135,47,46,8
+    //CONTROL         "        ",IDC_Randomize,"Button",BS_AUTORADIOBUTTON | WS_GROUP,136,20,51,10
+    //CONTROL         "          ",IDC_SetRandomSeed,"Button",BS_AUTORADIOBUTTON,136,32,74,10
+END
+
+///-----------------------------------------------任意修改
+
+//IDD_TestCreation DIALOG  0, 0, 260, 161
+//STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+//CAPTION "Creat test case"
+//FONT 8, "MS Sans Serif"
+//BEGIN
+//    DEFPUSHBUTTON   "OK",IDOK,203,7,50,14
+//    PUSHBUTTON      "Cancel",IDCANCEL,203,24,50,14
+//   // LTEXT           "You should have drawn a Dots and Boxes position with green lines for the starting position and red lines for the possible 'solutions'.",IDC_STATIC,7,7,139,36
+//    CONTROL         "Find Random move - proceed.",IDC_RandomMove,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,45,111,10
+//    CONTROL         "Find Obvious Capture -  Stop if success",IDC_ObviousCapture,
+//                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,56,140,10
+//    CONTROL         "If Random - Give Nothing - proceed",IDC_GiveNothing,
+//                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,78,128,10
+//    CONTROL         "If Random - Give Little - proceed",IDC_GiveLittle,
+//                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,89,118,10
+//    CONTROL         "Grab Anything - proceed",IDC_GrabAnything,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,67,93,10
+//    CONTROL         "Simple Win - Stop if success",IDC_SimpleWin,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,100,105,10
+//    CONTROL         "Verify Nimstring Value",IDC_VerifyNimstringValue,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,113,84,10
+//    EDITTEXT        IDC_NimstringValue,92,110,40,14,ES_AUTOHSCROLL
+//END
+
+//IDD_OptionsDialog DIALOG  0, 0, 186, 95//------------------修改------小郭
+/*STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Program Options"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+    EDITTEXT        IDC_TimeLimit,7,24,40,14,ES_AUTOHSCROLL
+    LTEXT           "Time Limit is Seconds",IDC_STATIC,7,14,69,8
+    CONTROL         "Auto Play",IDC_AutoPlay,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,5,50,46,10
+END
+
+IDD_Statistics DIALOG  0, 0, 361, 185
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "NimExistsCalls"
+FONT 8, "MS Sans Serif"
+//BEGIN*/
+//    DEFPUSHBUTTON   "OK",IDOK,304,7,50,14
+//    PUSHBUTTON      "Cancel",IDCANCEL,304,24,50,14
+//    EDITTEXT        IDC_TotalNimHashEntries,10,45,40,14,ES_AUTOHSCROLL
+//    LTEXT           "Total Nim Hash Entries",IDC_STATIC,10,35,73,8
+//    LTEXT           "Nim Exists Calls",IDC_STATIC,10,65,50,8
+//    EDITTEXT        IDC_NimExistsTrue,10,105,40,14,ES_AUTOHSCROLL
+//    LTEXT           "Nim Exists Returns True",IDC_STATIC,10,95,76,8
+//    EDITTEXT        IDC_NimExistsCalls,10,75,40,14,ES_AUTOHSCROLL
+//    EDITTEXT        IDC_NimHashCacheCrash,10,135,40,14,ES_AUTOHSCROLL
+//    LTEXT           "Nim Hash Cache Crash",IDC_STATIC,10,125,74,8
+//    EDITTEXT        IDC_TotalPointsCacheEntries,95,45,40,14,ES_AUTOHSCROLL
+//    EDITTEXT        IDC_PointsExistsCalls,95,75,40,14,ES_AUTOHSCROLL
+//    EDITTEXT        IDC_PointsExistsTrue,95,105,40,14,ES_AUTOHSCROLL
+//    EDITTEXT        IDC_PointsHashCacheCrash,95,135,40,14,ES_AUTOHSCROLL
+//    EDITTEXT        IDC_PointsCacheUpdate,95,165,40,14,ES_AUTOHSCROLL
+//    LTEXT           "Total Points Cache Entries",IDC_STATIC,95,35,84,8
+//    LTEXT           "Points Exists True",IDC_STATIC,95,95,57,8
+//    LTEXT           "Points Exists Calls",IDC_STATIC,95,65,57,8
+//    LTEXT           "Points Hash Cache Crash ",IDC_STATIC,95,125,84,8
+//    LTEXT           "Points Cach Update",IDC_STATIC,95,155,64,8
+//    EDITTEXT        IDC_TotalCDCacheEntries,195,45,40,14,ES_AUTOHSCROLL
+//    EDITTEXT        IDC_CDExistsCalls,195,75,40,14,ES_AUTOHSCROLL
+//    EDITTEXT        IDC_CDExistsTrue,195,105,40,14,ES_AUTOHSCROLL
+//    EDITTEXT        IDC_CDHashCacheCrash,195,135,40,14,ES_AUTOHSCROLL
+//    EDITTEXT        IDC_CDCacheUpdate,195,165,40,14,ES_AUTOHSCROLL
+//    LTEXT           "Total CD Cache Entries",IDC_STATIC,195,35,75,8
+//    LTEXT           "CD Exists True",IDC_STATIC,195,95,48,8
+//    LTEXT           "CD Exists Calls",IDC_STATIC,195,65,48,8
+//    LTEXT           "CD Hash Cache Crash ",IDC_STATIC,195,125,74,8
+//    LTEXT           "CD Cach Update",IDC_STATIC,195,155,55,8
+//    EDITTEXT        IDC_NimHashSize,10,15,40,14,ES_AUTOHSCROLL
+//    LTEXT           "Nim Hash Size",IDC_STATIC,10,5,47,8
+//    EDITTEXT        IDC_pointsHashSize,95,15,40,14,ES_AUTOHSCROLL
+//    LTEXT           "Points Hash Size",IDC_STATIC,95,5,54,8
+//    EDITTEXT        IDC_cdHashSize,195,15,40,14,ES_AUTOHSCROLL
+//    LTEXT           "CD Hash Size",IDC_STATIC,195,5,45,8
+//END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+//VS_VERSION_INFO VERSIONINFO
+// FILEVERSION 1,0,0,1
+// PRODUCTVERSION 1,0,0,1
+ //FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+// FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+// FILEOS 0x4L
+// FILETYPE 0x1L
+// FILESUBTYPE 0x0L
+/*BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "NewBoxes MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "NewBoxes"
+            VALUE "LegalCopyright", "Copyright (C) 2006"
+            VALUE "OriginalFilename", "NewBoxes.EXE"
+            VALUE "ProductName", "NewBoxes Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END*/
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_NewDialog, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 247
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 101
+    END
+
+    IDD_TestCreation, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 154
+    END
+
+    IDD_OptionsDialog, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_Statistics, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 354
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+//STRINGTABLE 
+/*BEGIN
+    AFX_IDS_APP_TITLE       "NewBoxes"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_EnterPosition       "Enter a Dots-and-Boxes position"
+    IDM_ComputerMove        "Let Computer make the next move."
+    ID_UnDoTurn             "Reverse moves of Most Recent Turn"
+    IDM_TestCreation        "Create a case for testing tis program."
+    IDM_Options             "Time limits and such"
+    IDC_Statistics          "Computation Statistics"
+    IDM_Nimval              "Compute Nimval of current position"
+    IDM_PlayGame            "Play a game starting at the current position"
+    IDM_GameMode            "View Current state of game"
+    IDM_LoopWeights         "View Loop Weights"
+END
+
+STRINGTABLE 
+BEGIN
+    IDM_Divide              "View Divide and Conquer Weights"
+END*/
+
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+//LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\NewBoxes.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED

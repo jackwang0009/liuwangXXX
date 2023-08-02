@@ -1,0 +1,251 @@
+     1 Enter NimVal
+
+
+     Search depth = 1
+     1 Entering NimVal
+     (00000000,00000000)
+      0|01|00:00 03:00 fa:     :  |02:00 03:00 fa:00   :  | 00
+      1|02|00:01 03:01 fa:     :  |02:00 03:00 fa:00   :  | 00
+      2|00|01:00 02:00 fa:     :  |00:00 01:00 fa:00   :  | 00
+      3|03|01:01 02:01 fa:     :  |00:00 01:00 fa:00   :  | 00
+
+
+     Search depth = 1
+     1 NimVal Canonized sub-string
+     (cff9fb63,e5ae0a3e)
+      0|01|00:00 03:00 fa:     :  |02:00 03:00 fa:00   :  | 00
+      1|02|00:01 03:01 fa:     :  |02:00 03:00 fa:00   :  | 00
+      2|00|01:00 02:00 fa:     :  |00:00 01:00 fa:00   :  | 00
+      3|03|01:01 02:01 fa:     :  |00:00 01:00 fa:00   :  | 00
+          2 Enter NimVal
+
+
+          Search depth = 2
+          2 Entering NimVal
+          (00000000,00000000)
+           0|02|fa:   03:01 fa:     :  |fa:00 03:00 fa:00   :  | 00
+           1|03|fa:   02:01 fa:     :  |fa:00 01:00 fa:00   :  | 03
+
+
+          Search depth = 2
+          2 NimVal Canonized sub-string
+          (dc2fc318,65d3891b)
+           0|02|03:00 fa:   fa:     :  |01:00 fa:00 fa:00   :  | 00
+           1|03|02:00 fa:   fa:     :  |00:00 fa:00 fa:00   :  | 00
+               3 Enter NimVal
+
+
+               Search depth = 3
+               3 Entering NimVal
+               (00000000,00000000)
+                0|02|fd:     :     :     :  |fd:01   :     :     :  | 00
+                1|03|fd:     :     :     :  |fd:01   :     :     :  | 01
+                
+               3Isolated sub-String value = 1
+                
+               3Isolated sub-String value = 1
+               3 Exit NimVal result=0
+               4 Enter NimVal
+
+
+               Search depth = 3
+               4 Entering NimVal
+               (00000000,00000000)
+                0|03|fa:   fa:   fa:     :  |fa:00 fa:00 fa:00   :  | 01
+
+
+               Search depth = 3
+               4 NimVal Canonized sub-string
+               (00fa0705,ffff00fb)
+                0|03|fa:   fa:   fa:     :  |fa:00 fa:00 fa:00   :  | 00
+                    5 Enter NimVal
+
+
+                    Search depth = 4
+                    5 Entering NimVal
+                    (00000000,00000000)
+                     0|03|fd:     :     :     :  |fd:01   :     :     :  | 00
+                     
+                    5Isolated sub-String value = 1
+                    5 Exit NimVal result=1
+                
+               4 Computed Substring Hash=00fa0705ffff00fb value = 0
+               4 Exit NimVal result=0
+           
+          2 Computed Substring Hash=dc2fc31865d3891b value = 1
+          2 Exit NimVal result=1
+          6 Enter NimVal
+
+
+          Search depth = 2
+          6 Entering NimVal
+          (00000000,00000000)
+           0|02|00:01 03:01 fa:     :  |02:00 03:00 fa:00   :  | 00
+           1|00|03:00 02:00 fa:     :  |03:01 01:00 fa:00   :  | 02
+           2|03|00:00 02:01 fa:     :  |00:01 01:00 fa:00   :  | 03
+
+
+          Search depth = 2
+          6 NimVal Canonized sub-string
+          (a7e08d26,19520bad)
+           0|00|02:00 fa:   03:02   :  |02:00 fa:00 01:01   :  | 00
+           1|03|02:01 fa:   00:02   :  |02:00 fa:00 00:01   :  | 00
+           2|02|00:00 03:00 fa:     :  |00:00 01:00 fa:00   :  | 02
+               7 Enter NimVal
+
+
+               Search depth = 3
+               7 Entering NimVal
+               (00000000,00000000)
+                0|03|fa:   fa:   fa:     :  |fa:00 fa:00 fa:02   :  | 01
+
+
+               Search depth = 3
+               7 NimVal Canonized sub-string
+               (00fa0705,ffff02fb)
+                0|03|fa:   fa:   fa:     :  |fa:00 fa:00 fa:02   :  | 00
+                    8 Enter NimVal
+
+
+                    Search depth = 4
+                    8 Entering NimVal
+                    (00000000,00000000)
+                     0|03|fd:     :     :     :  |fd:03   :     :     :  | 00
+                    8 Exit NimVal result=0
+                    9 Enter NimVal
+
+
+                    Search depth = 4
+                    9 Entering NimVal
+                    (00000000,00000000)
+                     0|03|fd:     :     :     :  |fd:01   :     :     :  | 00
+                     
+                    9Isolated sub-String value = 1
+                    9 Exit NimVal result=1
+                
+               7 Computed Substring Hash=00fa0705ffff02fb value = 2
+               7 Exit NimVal result=2
+               10 Enter NimVal
+
+
+               Search depth = 3
+               10 Entering NimVal
+               (00000000,00000000)
+                0|03|02:01 fa:   02:00   :  |02:00 fa:00 02:02   :  | 01
+                1|02|03:02 03:00 fa:     :  |03:02 01:00 fa:00   :  | 02
+
+
+               Search depth = 3
+               10 NimVal Canonized sub-string
+               (dc2fc352,6c9559b8)
+                0|03|02:00 fa:   02:02   :  |01:00 fa:00 01:02   :  | 00
+                1|02|03:00 fa:   03:02   :  |00:00 fa:00 00:02   :  | 00
+                    11 Enter NimVal
+
+
+                    Search depth = 4
+                    11 Entering NimVal
+                    (00000000,00000000)
+                     0|03|fd:     :     :     :  |fd:04   :     :     :  | 00
+                    11 Exit NimVal result=0
+                    12 Enter NimVal
+
+
+                    Search depth = 4
+                    12 Entering NimVal
+                    (00000000,00000000)
+                     0|02|fa:   fa:   fa:     :  |fa:03 fa:00 fa:03   :  | 01
+
+
+                    Search depth = 4
+                    12 NimVal Canonized sub-string
+                    (03fa0705,ffff03fd)
+                     0|02|fa:   fa:   fa:     :  |fa:00 fa:03 fa:03   :  | 00
+                         13 Enter NimVal
+
+
+                         Search depth = 5
+                         13 Entering NimVal
+                         (00000000,00000000)
+                          0|02|fd:     :     :     :  |fd:07   :     :     :  | 00
+                         13 Exit NimVal result=0
+                     
+                    12 Computed Substring Hash=03fa0705ffff03fd value = 1
+                    12 Exit NimVal result=1
+                    14 Enter NimVal
+
+
+                    Search depth = 4
+                    14 Entering NimVal
+                    (00000000,00000000)
+                     0|03|fd:     :     :     :  |fd:01   :     :     :  | 00
+                     
+                    14Isolated sub-String value = 1
+                    14 Exit NimVal result=1
+                
+               10 Computed Substring Hash=dc2fc3526c9559b8 value = 2
+               10 Exit NimVal result=2
+               15 Enter NimVal
+
+
+               Search depth = 3
+               15 Entering NimVal
+               (00000000,00000000)
+                0|02|fa:   fa:   fa:     :  |fa:00 fa:00 fa:00   :  | 02
+
+
+               Search depth = 3
+               15 NimVal Canonized sub-string
+               (00fa0705,ffff00fb)
+                0|02|fa:   fa:   fa:     :  |fa:00 fa:00 fa:00   :  | 00
+                
+               15 Sub-string Hash=00fa0705ffff00fb Value = 0
+               15 Exit NimVal result=0
+               16 Enter NimVal
+
+
+               Search depth = 3
+               16 Entering NimVal
+               (00000000,00000000)
+                0|00|03:00 fa:   03:02   :  |03:01 fa:00 01:01   :  | 00
+                1|03|00:00 fa:   00:02   :  |00:01 fa:00 00:01   :  | 01
+
+
+               Search depth = 3
+               16 NimVal Canonized sub-string
+               (c1ecc443,66088f82)
+                0|00|fa:   03:02 03:01   :  |fa:00 01:01 01:01   :  | 00
+                1|03|fa:   00:02 00:01   :  |fa:00 00:01 00:01   :  | 00
+                    17 Enter NimVal
+
+
+                    Search depth = 4
+                    17 Entering NimVal
+                    (00000000,00000000)
+                     0|03|fa:   fa:   fa:     :  |fa:00 fa:03 fa:03   :  | 01
+
+
+                    Search depth = 4
+                    17 NimVal Canonized sub-string
+                    (03fa0705,ffff03fd)
+                     0|03|fa:   fa:   fa:     :  |fa:00 fa:03 fa:03   :  | 00
+                     
+                    17 Sub-string Hash=03fa0705ffff03fd Value = 1
+                    17 Exit NimVal result=1
+                    18 Enter NimVal
+
+
+                    Search depth = 4
+                    18 Entering NimVal
+                    (00000000,00000000)
+                     0|00|fd:     :     :     :  |fd:03   :     :     :  | 00
+                    18 Exit NimVal result=0
+                
+               16 Computed Substring Hash=c1ecc44366088f82 value = 2
+               16 Exit NimVal result=2
+           
+          6 Computed Substring Hash=a7e08d2619520bad value = 1
+          6 Exit NimVal result=1
+      
+     1 Computed Substring Hash=cff9fb63e5ae0a3e value = 0
+     1 Exit NimVal result=0

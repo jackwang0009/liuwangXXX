@@ -1,0 +1,17 @@
+#Comments (AND BLANK LINES) are welcome anywhere
+#
+#Human vertical = /
+#Computer vertical = |
+#Human horizontal = -
+#Computer horizontal = =
+#Human box ownership = H
+#Computer box ownership = C
+#
+.-.-. .#The first row determines width
+|
+. .-.-.
+| |
+. . . .
+  |   | 
+. .-. .
+Anything illegal in column one determines height.

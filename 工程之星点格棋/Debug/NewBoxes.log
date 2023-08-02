@@ -1,0 +1,100 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  StdAfx.cpp
+  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  Utility.cpp
+  Translate.cpp
+  TestCreation.cpp
+  Tables.cpp
+  SWEvaluate.cpp
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\SWEvaluate.cpp(446,10): warning C4456: “ourNewMinW”的声明隐藏了上一个本地声明
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\SWEvaluate.cpp(352,18): message : 参见“ourNewMinW”的声明
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\SWEvaluate.cpp(810,9): warning C4456: “cpm”的声明隐藏了上一个本地声明
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\SWEvaluate.cpp(591,17): message : 参见“cpm”的声明
+  Strings.cpp
+  StatisticsDialog.cpp
+  Simplify.cpp
+  Process.cpp
+  PlayGame.cpp
+  OptionsDialog.cpp
+  OpeningTables.cpp
+  Openings.cpp
+  Nimstring.cpp
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\Nimstring.cpp(517,25): warning C4456: “nnA”的声明隐藏了上一个本地声明
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\Nimstring.cpp(390,13): message : 参见“nnA”的声明
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\Nimstring.cpp(576,27): warning C4456: “nnA”的声明隐藏了上一个本地声明
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\Nimstring.cpp(390,13): message : 参见“nnA”的声明
+  NimSimplify.cpp
+  NewDialog.cpp
+  NewBoxesView.cpp
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\NewBoxesView.cpp(118,16): warning C4459: “pDoc”的声明隐藏了全局声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\NewBoxesDoc.h(204,22): message : 参见“pDoc”的声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\NewBoxesView.cpp(259,18): warning C4456: “specialPen”的声明隐藏了上一个本地声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\NewBoxesView.cpp(252,14): message : 参见“specialPen”的声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\NewBoxesView.cpp(273,18): warning C4456: “specialPen”的声明隐藏了上一个本地声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\NewBoxesView.cpp(252,14): message : 参见“specialPen”的声明
+  NewBoxesDoc.cpp
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\NewBoxesDoc.cpp(141,7): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  NewBoxes.cpp
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\NewBoxes.cpp(67,2): warning C4996: 'CWinApp::Enable3dControls': CWinApp::Enable3dControls is no longer needed. You should remove this call.
+  MoveHistory.cpp
+  正在生成代码...
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\Simplify.cpp(328): warning C4702: 无法访问的代码
+  正在编译...
+  MainFrm.cpp
+  IO.cpp
+  Hash.cpp
+  Flow.cpp
+  EnterPosition.cpp
+  DotsAndBoxes.cpp
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\DotsAndBoxes.cpp(951,9): warning C4456: “i”的声明隐藏了上一个本地声明
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\DotsAndBoxes.cpp(925,7): message : 参见“i”的声明
+  Divide.cpp
+  DeduceMove.cpp
+  ComputerMove.cpp
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(166,9): warning C4456: “j”的声明隐藏了上一个本地声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(157,14): message : 参见“j”的声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(291,18): warning C4459: “searchDepth”的声明隐藏了全局声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(18,12): message : 参见“searchDepth”的声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(692,65): warning C4459: “computerMove”的声明隐藏了全局声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(24,14): message : 参见“computerMove”的声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(767,72): warning C4459: “computerMove”的声明隐藏了全局声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(24,14): message : 参见“computerMove”的声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(843,72): warning C4459: “computerMove”的声明隐藏了全局声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(24,14): message : 参见“computerMove”的声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(920,66): warning C4459: “computerMove”的声明隐藏了全局声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(24,14): message : 参见“computerMove”的声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(1016,38): warning C4459: “moveType”的声明隐藏了全局声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(23,11): message : 参见“moveType”的声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(1017,39): warning C4459: “computerMove”的声明隐藏了全局声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(24,14): message : 参见“computerMove”的声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(1370,15): warning C4456: “j”的声明隐藏了上一个本地声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(1351,13): message : 参见“j”的声明
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(2162,33): warning C4840: 将类 "ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>" 作为可变参数函数的参数的不可移植用法
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(2162,33): message : "ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT" 不常用
+          with
+          [
+              _CharType=char
+          ]
+G:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\atlmfc\include\cstringt.h(1030,2): message : 参见“ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>::CStringT”的声明
+          with
+          [
+              _CharType=char
+          ]
+C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\ComputerMove.cpp(2162,33): message : 不会调用构造函数和析构函数；该类的位副本将作为参数进行传递
+G:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\atlmfc\include\afxstr.h(87,84): message : 参见“ATL::CStringT<char,StrTraitMFC_DLL<char,ATL::ChTraitsCRT<_CharType>>>”的声明
+          with
+          [
+              _CharType=char
+          ]
+  Combinations.cpp
+  CCD.cpp
+  Canon.cpp
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\Canon.cpp(193,25): warning C4456: “nn”的声明隐藏了上一个本地声明
+C:\Users\15485\Desktop\工程之星点格棋\DotBoxLib\Canon.cpp(157,7): message : 参见“nn”的声明
+  正在生成代码...
+  NewBoxes.vcxproj -> C:\Users\15485\Desktop\工程之星点格棋\工程之星点格棋\Debug\NewBoxes.exe
